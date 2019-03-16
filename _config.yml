@@ -1,0 +1,63 @@
+title: Blog of Jayce
+url: https://blog.jaycezou.com
+baseurl: ''
+description: >
+  人生若只如初见 何事秋风悲画扇
+
+permalink: /:year/:month/:title.html
+
+image: /public/images/mountains.jpg
+color: '#dc322f'
+google_analytics: 
+# baidu_analytics: 2209f3e596f3e0c61a293f49a2f65ba3
+
+markdown: kramdown
+highlighter: rouge
+paginate: 9
+paginate_path: "/page/:num"
+
+# 作者信息
+author:
+  name: 邹梦（Jayce Zou）
+  email: jayce.zou@foxmail.com
+  photo: /public/images/avatar.jpg
+
+# 社交信息
+socials:
+  - title: Github
+    icon: github
+    url: https://github.com/jaycezou
+
+# 友链
+links:
+  - title: 王爵的技术小黑屋
+    url: http://blog.biezhi.me/
+
+# html 压缩
+compress_html:
+  clippings: all
+  comments: ["<!--", "-->"]
+  endings: all
+  startings: [html, head, body]
+
+# sass 解析
+sass:
+  sass_dir: public/css
+  style: compressed
+
+# 插件
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# 评论
+comments:
+  gitalk: true
+  gitalk_clientID: '2d755fa17ad114642012'
+  gitalk_Secret: '145fa0cdb801b3dbae0bb16de3a4705e4e9cbebf'
+  gitalk_repo: 'my-blog'
+  gitalk_owner: 'jaycezou'
+  gitalk_admin: 'jaycezou'
+  distractionFreeMode: true

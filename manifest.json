@@ -1,0 +1,22 @@
+{
+    "short_name": "梦梦",
+    "name": "业精于勤，行成于思",
+    "icons": [{
+            "src": "/public/images/icons/cat--5-114-85909.png",
+            "type": "image/png",
+            "sizes": "114x114"
+        },
+        {
+            "src": "/public/images/icons/cat--5-152-85909.png",
+            "type": "image/png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "/public/images/icons/cat--5-512-85909.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/?utm_source=homescreen",
+    "display": "standalone"
+}
