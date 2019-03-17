@@ -9,7 +9,7 @@ permalink: /:year/:month/:title.html
 image: /public/images/mountains.jpg
 color: '#dc322f'
 google_analytics: 
-# baidu_analytics: 2209f3e596f3e0c61a293f49a2f65ba3
+baidu_analytics: eb0fb91ac1e5eca1c8e1ce4c6348c6a4
 
 markdown: kramdown
 highlighter: rouge
@@ -54,7 +54,8 @@ plugins:
 
 # 评论
 comments:
-  gitalk: true
+  disqus: jaycezou
+  gitalk: false
   gitalk_clientID: '2d755fa17ad114642012'
   gitalk_Secret: '145fa0cdb801b3dbae0bb16de3a4705e4e9cbebf'
   gitalk_repo: 'my-blog'

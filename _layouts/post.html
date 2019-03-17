@@ -44,4 +44,8 @@ layout: default
 </div>
 <div class="clearfix"></div>
 
+{% if site.comments.disqus %}
+ {% include disqus.html %}
+{% endif %}
+
 <div id="gitalk-container"></div>

@@ -27,3 +27,7 @@ order: 5
 ## 其他
 
 我的博客使用 Jekyll 搭建，源码托管在 [Github](https://github.com/jaycezou/my-blog){:target="_blank"}。如果你有什么想对我说的请发送邮件至 `jayce.zou@foxmail.com`，注意逻辑清晰，表明来意，否则不回复。
+
+{% if site.comments.disqus %}
+{% include disqus.html %}
+{% endif %}
