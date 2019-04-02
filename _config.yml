@@ -9,7 +9,7 @@ permalink: /:year/:month/:title.html
 image: /public/images/mountains.jpg
 color: '#dc322f'
 google_analytics: 
-baidu_analytics: eb0fb91ac1e5eca1c8e1ce4c6348c6a4
+#baidu_analytics: eb0fb91ac1e5eca1c8e1ce4c6348c6a4
 
 markdown: kramdown
 highlighter: rouge

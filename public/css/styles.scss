@@ -7,3 +7,11 @@
 @import "poole";
 @import "hyde";
 @import "highlight";
+
+p {
+    text-indent: 2em;
+}
+
+.none-indent {
+    text-indent: 0px;
+}
